@@ -1,2 +1,1 @@
-var w122q = 'https://test.com';
-console.log(w122q);
+var w1221q = 'https://test.com';
