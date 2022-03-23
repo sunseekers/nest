@@ -44,6 +44,8 @@ export class UserService {
       .execute();
     return res;
   }
+  async foo(params1, params2, params3, params4) {}
+  async foo1(params1, params2, params3, params4) {}
   async delete(id: number) {
     return await this.user
       .createQueryBuilder()
