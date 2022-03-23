@@ -35,6 +35,7 @@ export class UserService {
     id: number,
     name: string,
     age: number,
+    test: string,
   ) {
     const res = await this.user
       .createQueryBuilder()
