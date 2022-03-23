@@ -30,13 +30,7 @@ export class UserService {
       })
       .execute();
   }
-  async update(
-    createDto: CreateUserDto,
-    id: number,
-    name: string,
-    age: number,
-    test: string,
-  ) {
+  async update(createDto: CreateUserDto, id: number) {
     const res = await this.user
       .createQueryBuilder()
       .update(createDto)
@@ -44,8 +38,6 @@ export class UserService {
       .execute();
     return res;
   }
-  async foo(params1, params2, params3, params4) {}
-  async foo1(params1, params2, params3, params4) {}
   async delete(id: number) {
     return await this.user
       .createQueryBuilder()

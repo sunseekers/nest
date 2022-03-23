@@ -38,9 +38,7 @@ export class UserController {
   }
   @Post('/updata/:id')
   async update(@Param('id') id: number, @Query() params) {
-    const name = 'name';
-    const age = 9;
-    const res = await this.userService.update(params, id, name, age, '90');
+    const res = await this.userService.update(params, id);
     if (!res) return;
     return {
       code: 0,

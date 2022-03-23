@@ -1,9 +1,2 @@
-function foo(parser1, parser2, parser3, parser4, parser5) {
-  return {
-    parser1,
-    parser2,
-    parser3,
-    parser4,
-    parser5,
-  };
-}
+var w122q = 'https://test.com';
+console.log(w122q);

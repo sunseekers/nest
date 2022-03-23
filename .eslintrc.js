@@ -4,7 +4,7 @@ module.exports = {
     project: 'tsconfig.json',
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint/eslint-plugin','eslint-plugin-sunseekers'],
+  plugins: ['@typescript-eslint/eslint-plugin','sunseekers'],
   extends: [
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
@@ -20,6 +20,6 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
-    'eslint-plugin-sunseekers/rule-name':2
+    'sunseekers/no-block-comments':2
   },
 };
