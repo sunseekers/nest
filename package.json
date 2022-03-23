@@ -32,6 +32,9 @@
     "rxjs": "^7.2.0",
     "typeorm": "^0.2.45"
   },
+  "hooks": {
+    "pre-commit": "eslint src/**/*{.js,.vue}"
+  },
   "devDependencies": {
     "@nestjs/cli": "^8.0.0",
     "@nestjs/schematics": "^8.0.0",

@@ -2119,6 +2119,12 @@
   dependencies:
     "prettier-linter-helpers" "^1.0.0"
 
+"eslint-plugin-sunseekers@file:../eslint-sunseekers":
+  "resolved" "file:../eslint-sunseekers"
+  "version" "0.0.0"
+  dependencies:
+    "requireindex" "^1.2.0"
+
 "eslint-scope@^5.1.1", "eslint-scope@5.1.1":
   "integrity" "sha1-54blmmbLkrP2wfsNUIqrF0hI9Iw="
   "resolved" "https://registry.npmmirror.com/eslint-scope/download/eslint-scope-5.1.1.tgz?cache=0&sync_timestamp=1637466831846&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Feslint-scope%2Fdownload%2Feslint-scope-5.1.1.tgz"

@@ -30,7 +30,12 @@ export class UserService {
       })
       .execute();
   }
-  async update(createDto: CreateUserDto, id: number) {
+  async update(
+    createDto: CreateUserDto,
+    id: number,
+    name: string,
+    age: number,
+  ) {
     const res = await this.user
       .createQueryBuilder()
       .update(createDto)
